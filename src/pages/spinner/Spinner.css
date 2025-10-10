@@ -1,0 +1,165 @@
+
+.spinner-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 12rem;
+  margin-bottom: 10rem;
+}
+
+
+.spinner-wrapper li:first-child .text { background-color: violet; }
+.spinner-wrapper li:nth-child(2) .text { background-color: blue; }
+.spinner-wrapper li:nth-child(3) .text { background-color: rgb(54, 132, 74); }
+.spinner-wrapper li:nth-child(4) .text { background-color: rgb(151, 54, 135); }
+.spinner-wrapper li:nth-child(5) .text { background-color: rgb(203, 149, 84); }
+.spinner-wrapper li:nth-child(6) .text { background-color: rgb(186, 161, 35); }
+.spinner-wrapper li:nth-child(7) .text { background-color: rgb(234, 151, 26); }
+.spinner-wrapper li:nth-child(8) .text { background-color: rgb(135, 13, 60); }
+.spinner-wrapper li:nth-child(9) .text { background-color: rgb(219, 74, 52); }
+.spinner-wrapper li:nth-child(10) .text { background-color: rgb(124, 70, 70); }
+.spinner-wrapper li:nth-child(11) .text { background-color: rgb(220, 198, 31); }
+.spinner-wrapper li:nth-child(12) .text { background-color: rgb(31, 220, 207); }
+
+
+.spinner-wrapper .circle2 {
+  width: 25em;
+  height: 25em;
+  border: 1px solid black;
+  position: relative;
+  padding: 0;
+  margin: 1em auto;
+  border-radius: 50%;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+
+.spinner-wrapper li {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+  transform-origin: 0% 100%;
+}
+
+
+.spinner-wrapper .text {
+  position: absolute;
+  left: -100%;
+  width: 200%;
+  height: 200%;
+  text-align: center;
+  display: block;
+  transform: skewY(60deg) rotate(15deg);
+  padding-top: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+.spinner-wrapper li:first-child { transform: rotate(0deg) skewY(-60deg); }
+.spinner-wrapper li:nth-child(2) { transform: rotate(30deg) skewY(-60deg); }
+.spinner-wrapper li:nth-child(3) { transform: rotate(60deg) skewY(-60deg); }
+.spinner-wrapper li:nth-child(4) { transform: rotate(90deg) skewY(-60deg); }
+.spinner-wrapper li:nth-child(5) { transform: rotate(120deg) skewY(-60deg); }
+.spinner-wrapper li:nth-child(6) { transform: rotate(150deg) skewY(-60deg); }
+.spinner-wrapper li:nth-child(7) { transform: rotate(180deg) skewY(-60deg); }
+.spinner-wrapper li:nth-child(8) { transform: rotate(210deg) skewY(-60deg); }
+.spinner-wrapper li:nth-child(9) { transform: rotate(240deg) skewY(-60deg); }
+.spinner-wrapper li:nth-child(10) { transform: rotate(270deg) skewY(-60deg); }
+.spinner-wrapper li:nth-child(11) { transform: rotate(300deg) skewY(-60deg); }
+.spinner-wrapper li:nth-child(12) { transform: rotate(330deg) skewY(-60deg); }
+
+
+.spinner-wrapper .arrow {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 50px solid black;
+  position: absolute;
+  left: 51%;
+  top: 25%;  
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.spinner-wrapper .spin-button {
+  width: 120px;
+  height: 40px;
+  background-color: blue;
+  border-radius: 30px;
+
+  cursor: pointer;
+  outline: none;
+  color: white;
+  font-size: 18px;
+  border: none;
+}
+
+
+.spinner-wrapper .start-rotate {
+  animation: start-rotate 1s linear infinite;
+}
+
+@keyframes start-rotate {
+  100% { transform: rotate(360deg); }
+}
+
+.spinner-wrapper .stop-rotate {
+  animation-play-state: paused;
+}
+
+
+.spinner-wrapper .swal2-popup {
+  width: 80% !important;
+  max-width: 350px !important;
+}
+
+.spinner-wrapper .swal2-title {
+  font-size: 1.2em !important;
+}
+
+.spinner-wrapper .swal2-content {
+  font-size: 1em !important;
+}
+
+
+@media (max-width: 768px) {
+  .spinner-wrapper {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .spinner-wrapper .circle2 {
+    width: 16em;
+    height: 16em;
+    display: flex; 
+  }
+
+  .spinner-wrapper .text {
+    font-size: 12px;
+    padding-top: 8px;
+  }
+
+  .spinner-wrapper .arrow {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 25px solid black;
+    top: -12px;
+    left: 52%;
+    margin-top: 10rem;
+  }
+
+  .spinner-wrapper .spin-button {
+    width: 80px;
+    height: 35px;
+    font-size: 14px;
+    margin-top: 12px;
+  }
+}
