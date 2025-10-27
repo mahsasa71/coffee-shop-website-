@@ -67,8 +67,13 @@ const navigate = useNavigate();
                   <a href="#" onClick={preventLink}>قهوه زینو برزیلی</a>
                 </div>
               </li>
-              <li><a href="#" onClick={preventLink}>دیکشنری</a></li>
-              <li><a href="#" onClick={preventLink}>بلاگ</a></li>
+             
+<li>
+  <Link to="/p-admin" className="flex items-center gap-x-2">
+
+    ورود به پنل مدیریت
+  </Link>
+</li>
               <li><a href="#" onClick={preventLink}>درباره ی ما</a></li>
               <li><a href="#" onClick={preventLink}>تماس با ما</a></li>
             </ul>
@@ -126,25 +131,27 @@ const navigate = useNavigate();
           <span className="w-px h-14 block bg-white/20"></span>
 
           <div className="flex gap-x-5 xl:gap-x-10 text-xl tracking-tightest">
-            {user && user.isLoggedIn ? (
-              <>
-                <p>{user.name || user.firstName}</p>
-                <button
-                  onClick={logout}
-                  className="flex items-center gap-2 px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600"
-                >
-                  خروج
-                  <svg className="w-5 h-5 rotate-180" fill="currentColor">
-                    <use href="#arrow-left"></use>
-                  </svg>
-                </button>
-              </>
-            ) : (
+{user && user.isLoggedIn ? (
+  <>
+    <Link to="/p-user/information" className="font-medium hover:underline">
+      {user.name || user.firstName}
+    </Link>
+    <button 
+      onClick={logout} 
+      className="flex items-center gap-2 px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600"
+    >
+      خروج
+      <svg className="w-5 h-5 rotate-180" fill="currentColor">
+        <use href="#arrow-left"></use>
+      </svg>
+    </button>
+  </>
+) : (
               <span className="hidden xl:inline-block">
                 <Link to="/login" className="text-orange-200 hover:text-orange-300">ورود</Link>{" | "}
                 <Link to="/register" className="text-orange-200 hover:text-orange-300">ثبت نام</Link>
               </span>
-            )}
+)}
           </div>
         </div>
       </header>
@@ -211,28 +218,40 @@ const navigate = useNavigate();
             </div>
           </li>
 
-          <li><a href="#" className="flex items-center gap-x-2" onClick={preventLink}><svg className="w-5 h-5"><use href="#chat-bubble-left-ellipsis"></use></svg>دیکشنری</a></li>
+
           <li><a href="#" className="flex items-center gap-x-2" onClick={preventLink}><svg className="w-5 h-5"><use href="#briefcase"></use></svg>درباره ما</a></li>
-          <li><a href="#" className="flex items-center gap-x-2" onClick={preventLink}><svg className="w-5 h-5"><use href="#document-text"></use></svg>بلاگ</a></li>
+
+<li>
+  <Link to="/p-admin" className="flex items-center gap-x-2">
+
+    ورود به پنل مدیریت
+  </Link>
+</li>
           <li><a href="#" className="flex items-center gap-x-2" onClick={preventLink}><svg className="w-5 h-5"><use href="#phone-arrow-up-right"></use></svg>تماس با ما</a></li>
         </ul>
 
         <div className="flex flex-col items-start gap-y-6 text-orange-300 px-2.5 py-8 mt-8 border-t border-t-gray-100 dark:border-t-white/10">
-          {user && user.isLoggedIn ? (
-            <>
-              <span>{user.name || user.firstName}</span>
-              <button onClick={logout} className="flex items-center gap-2 px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600">
-                خروج
-                <svg className="w-5 h-5 rotate-180" fill="currentColor">
-                  <use href="#arrow-left"></use>
-                </svg>
-              </button>
-            </>
-          ) : (
-            <a href="#" className="inline-flex items-center gap-x-2" onClick={preventLink}>
-              ورود | ثبت نام
-            </a>
-          )}
+{user && user.isLoggedIn ? (
+  <>
+    <Link to="/p-user/information" className="font-medium hover:underline">
+      {user.name || user.firstName}
+    </Link>
+    <button 
+      onClick={logout} 
+      className="flex items-center gap-2 px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600"
+    >
+      خروج
+      <svg className="w-5 h-5 rotate-180" fill="currentColor">
+        <use href="#arrow-left"></use>
+      </svg>
+    </button>
+  </>
+) : (
+              <span className="hidden xl:inline-block">
+                <Link to="/login" className="text-orange-200 hover:text-orange-300">ورود</Link>{" | "}
+                <Link to="/register" className="text-orange-200 hover:text-orange-300">ثبت نام</Link>
+              </span>
+)}
 
           <div className="toggle-theme cursor-pointer" onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
             <span className="flex items-center gap-x-2">

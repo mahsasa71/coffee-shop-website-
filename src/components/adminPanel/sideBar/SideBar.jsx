@@ -127,6 +127,14 @@ export default function SideBar() {
             🎁 جوایز 
             </Link>
 
+                                    <Link
+              to="/p-admin/adminArticle"
+              className="hover:bg-gray-700 hover:text-white p-2 rounded-md transition"
+              onClick={() => setOpen(false)}
+            >
+            ✍ مقالات 
+            </Link>
+
 
 
 

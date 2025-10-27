@@ -213,7 +213,7 @@
 
     .category-banner_item1{
 
-  background:linear-gradient(270deg,rgba(0,0,0,0.6),rgba(243,244,246,0.1)100%) , url(imges/categories/category-right.jpg);
+  background:linear-gradient(270deg,rgba(0,0,0,0.6),rgba(243,244,246,0.1)100%) , url(../imges/categories/category-right.jpg);
   background-repeat: no-repeat;
   background-size: cover;
     }
