@@ -3,6 +3,7 @@ import AuthProvider from "./pages/context/AuthContext";
 import CartProvider from "./pages/context/CartContext"; 
 import Routs from "./Routs";
 
+
 function App() {
   const router = useRoutes(Routs);
 

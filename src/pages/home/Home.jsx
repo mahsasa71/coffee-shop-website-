@@ -10,6 +10,7 @@ import CategoryBanner from "../../components/CategoryBanner/CategoryBanner";
 import ContactUs from "../../components/ContactUs/ContactUs";
 import ProductsCategory from "../../components/ProductsCategory/ProductsCategory";
 import Services from "../../components/Services/Services";
+import Info from "../../components/info/Info";
 export default function Home() {
   const { cart, setCart } = useContext(CartContext);
   const [mobileCartOpen, setMobileCartOpen] = React.useState(false);
@@ -66,6 +67,7 @@ export default function Home() {
       <Services/>
 
           </div>
+          <Info/>
       <Footer />
     </>
   );

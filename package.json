@@ -17,6 +17,8 @@
     "moment-jalaali": "^0.10.4",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-icon": "^1.0.0",
+    "react-icons": "^5.5.0",
     "react-loading-skeleton": "^3.5.0",
     "react-router-dom": "^7.9.1",
     "sweetalert": "^2.1.2",
