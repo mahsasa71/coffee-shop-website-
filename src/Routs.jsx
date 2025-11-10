@@ -16,7 +16,7 @@ import UserDashboard from "./pages/userPanel/UserDashboard";
 import ArticleComments from "./pages/AdminPanel/articleComments/ArticleComments";
 import GiftsAdmin from "./pages/AdminPanel/gifts/Gifts";
 import Orders from "./pages/AdminPanel/orders/Orders";
-import MainPage from "./pages/AdminPanel/mainPage/MAinPage";
+import MainPage from "./pages/AdminPanel/mainPage/MainPage";
 import ProtectedRoute from "./ProtectedRoute";
 const routes = [
     { path: "/", element: <Home /> },
