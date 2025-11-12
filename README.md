@@ -17,10 +17,13 @@
 
 ## 🚀 [Demo Project](https://coffee-shop-website-alpha.vercel.app/)
 
-👩‍💻 Developed by **Mahsa Sahraei**  
-🗓️ Created — **September 2025**  
+🎬 [Video](https://uupload.ir/view/output_progressive_a66ca790-ca3f-41ad-a500-134dffb05097_qhyb.mp4/)
 
-🛠️ **Technologies Used:** JavaScript • HTML • CSS  
+👩‍💻 Developed by **Mahsa Sahraei**  
+🗓️ Created — **September 2025**
+
+🛠️ **Technologies Used:** React • Tailwind • Firebase
+
 
 🎯 **Role:** Frontend Developer  
 
