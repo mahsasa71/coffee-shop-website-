@@ -1,12 +1,15 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/9a59a248-dad9-4c5a-a4c6-41092a7dca53" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/26443fee-c453-47f5-84b2-e631ecc903ae" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/c896db4f-663d-4fe0-983e-89c65da5be44" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/ee1e897c-94f9-47c4-b690-f010a9a53ea4" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/33ca8e24-6d41-49cd-af74-de1609e6f0b3" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/bf0c1cef-7003-4bf8-99f5-fae7fbd82fe2" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/beba783f-bcd2-480d-9886-eae125915d25" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/0e78dcc2-d0b2-4827-b9d8-4e7ba3979181" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/c89bf329-549d-4f23-b249-96d6ef9ff13b" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/041b3733-6277-4b9a-8c7e-e5921d1aac03" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/67498a3a-f817-48d8-b637-07825a690511" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/7f0f14a3-9e10-4681-bc5f-15a96436475c" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/ea071d08-36f6-44b3-84c9-bea46e25950b" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/78d1766b-0e8d-4c9c-ac8e-9b2edd79e236" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/eef4ff03-d0c6-4d7c-993a-f4ae45126c93" />
