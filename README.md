@@ -14,3 +14,16 @@
 <img width="1907" height="981" alt="Image" src="https://github.com/user-attachments/assets/bd327975-4b30-4763-9bd2-3ec3b4d98bf7" />
 <img width="1913" height="987" alt="Image" src="https://github.com/user-attachments/assets/00aa7875-dcd4-4999-b7a6-4d835907195a" />
 <img width="1911" height="975" alt="Image" src="https://github.com/user-attachments/assets/fce446b3-5f12-40c5-9c34-09c88ce374da" />
+
+## 🚀 [Demo Project](https://coffee-shop-website-alpha.vercel.app/)
+
+👩‍💻 Developed by **Mahsa Sahraei**  
+🗓️ Created — **September 2025**  
+
+🛠️ **Technologies Used:** JavaScript • HTML • CSS  
+
+🎯 **Role:** Frontend Developer  
+
+📫 **How to reach me:**  
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/mahsacodes)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mahsa-sahraei)
