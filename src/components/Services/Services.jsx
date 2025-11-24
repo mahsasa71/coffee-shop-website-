@@ -7,7 +7,7 @@ export default function Services() {
         <div className="flex flex-wrap gap-y-11 items-center justify-between text-zinc-700 dark:text-white *:w-1/2 *:lg:w-auto *:text-center *:lg:text-right">
           
         
-          <div className="flex items-center flex-col sm:flex-row justify-between gap-x-4 gap-y-5">
+          <div className="flex items-center flex-col lg:flex-row justify-between gap-x-4 gap-y-5">
 <svg  class="dark:hidden" width="66" height="73" viewBox="0 0 66 73" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_862_573)">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M55.2975 53.8429C57.7465 53.8429 60.0952 52.8716 61.8269 51.1427C63.5585 49.4139 64.5314 47.069 64.5314 44.6241C64.5314 42.1791 63.5585 39.8343 61.8269 38.1054C60.0952 36.3765 57.7465 35.4053 55.2975 35.4053V53.8429Z" fill="#FDBA74"/>
@@ -52,7 +52,7 @@ export default function Services() {
           </div>
 
          
-          <div className="flex items-center flex-col sm:flex-row justify-between gap-x-4 gap-y-5">
+          <div className="flex items-center flex-col lg:flex-row justify-between gap-x-4 gap-y-5">
 <svg  class="dark:hidden" width="109" height="73" viewBox="0 0 109 73" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_862_604)">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M59.5095 8.66211L92.4431 18.9995V35.1861L81.547 38.7482V23.3623L47.2621 12.3864L59.5095 8.66211Z" fill="#FDBA74"/>
@@ -109,7 +109,7 @@ export default function Services() {
           </div>
 
 
-                              <div className="flex items-center flex-col sm:flex-row justify-between gap-x-4 gap-y-5">
+                              <div className="flex items-center flex-col lg:flex-row justify-between gap-x-4 gap-y-5">
 <svg  class="dark:hidden" width="76" height="73" viewBox="0 0 76 73" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M18.9999 35.5L10.4999 33V64.5L11.4999 68L16.4999 72H52.0002L55.0002 70.5L58.0002 67V34.5L45.0002 31.5L35.0002 33L20.0002 35.5H18.9999Z" fill="#FDBA74"/>
 <path d="M11.4999 10V3.5L13.9999 1H51.0002L56.0002 2V10H11.4999Z" fill="#0D9488"/>
@@ -132,7 +132,7 @@ export default function Services() {
             </div>
           </div>
 
-                    <div className="flex items-center flex-col sm:flex-row justify-between gap-x-4 gap-y-5">
+                    <div className="flex items-center flex-col lg:flex-row justify-between gap-x-4 gap-y-5">
 <svg class="dark:hidden" width="52" height="73" viewBox="0 0 52 73" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M29.05 8.5V1.5H21.55V8.5L17.05 18L16.55 30H24.55V18L29.05 8.5Z" fill="#0D9488"/>
 <path d="M50.2009 16.1646L46.2333 8.22953V1.21667C46.2333 0.544762 45.6886 0 45.0167 0H6.08333C5.41143 0 4.86667 0.544762 4.86667 1.21667V8.22953L0.899117 16.1646C0.308882 17.3478 0.00121667 18.6518 0 19.974V71.7833C0 72.4552 0.544763 73 1.21667 73H49.8833C50.5552 73 51.1 72.4552 51.1 71.7833V19.974C51.0988 18.6518 50.7911 17.3478 50.2009 16.1646ZM30.4167 2.43333H43.8V7.3H30.4167V2.43333ZM23.0108 9.0155C23.0181 9.0009 23.0279 8.96197 23.0388 8.9352C23.0821 8.8181 23.1071 8.69491 23.113 8.5702C23.113 8.55317 23.1228 8.53978 23.1228 8.52275V2.43333H27.9894L27.9833 8.22953L24.0158 16.1646C23.4256 17.3478 23.1179 18.6518 23.1167 19.974V29.2H18.25V19.974C18.2515 19.0294 18.4713 18.0979 18.8924 17.2523L22.995 9.06052C23.0023 9.04592 23.0035 9.0301 23.0108 9.0155ZM7.3 2.43333H20.6833V7.3H7.3V2.43333ZM38.9333 19.974V70.5667H2.43333V19.974C2.43485 19.0294 2.65461 18.0979 3.07573 17.2523L6.83523 9.73333H19.9314L16.7158 16.1646C16.1256 17.3478 15.8179 18.6518 15.8167 19.974V30.4167C15.8167 31.0886 16.3614 31.6333 17.0333 31.6333H24.3333C25.0052 31.6333 25.55 31.0886 25.55 30.4167V19.974C25.5515 19.0294 25.7713 18.0979 26.1924 17.2523L29.9519 9.73333H43.0481L39.8325 16.1646C39.2422 17.3478 38.9346 18.6518 38.9333 19.974ZM48.6667 70.5667H41.3667V19.974C41.3682 19.0294 41.588 18.0979 42.0091 17.2523L45.0167 11.2371L48.0243 17.2523C48.4454 18.0979 48.6652 19.0294 48.6667 19.974V70.5667Z" fill="#3F3F46"/>

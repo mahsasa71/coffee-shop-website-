@@ -36,7 +36,7 @@ export default function Products({ addToCart }) {
     fetchProducts();
   }, []);
 
-  // نمایش اسکلتون هنگام بارگذاری
+
   if (loading) {
     return (
       <section className="products pt-8 md:pt-24 lg:pt-48">
@@ -73,9 +73,9 @@ export default function Products({ addToCart }) {
     );
   }
 
-  // محصولات بعد از بارگذاری
+
   return (
-    <section className="products pt-8 md:pt-24 lg:pt-48">
+    <section className="products pt-8 md:pt-24 ">
       <div className="container">
         <div className="flex items-end justify-between mb-5 md:mb-12">
           <div>

@@ -48,6 +48,8 @@ export default function Home() {
 
   return (
     <>
+    <div className="font-Dana">
+
       <Header
         cart={cart}
         removeCartItem={removeCartItem}
@@ -55,8 +57,11 @@ export default function Home() {
         mobileCartOpen={mobileCartOpen}
         setMobileCartOpen={setMobileCartOpen}
       />
-      <HomeBackGround />
-          <div className="font-Dana container bg-gray-100 dark:bg-zinc-800 min-h-screen transition-colors duration-300">
+      <div className="font-Dana">
+<HomeBackGround />
+      </div>
+      
+          <div className="font-Dana container bg-gray-100 dark:bg-zinc-800 min-h-screen transition-colors duration-300 py-6 md:py-2 mt-[-40px]">
       <Products addToCart={addToCart} />
 
       <CategoryBanner/>
@@ -69,6 +74,7 @@ export default function Home() {
           </div>
           <Info/>
       <Footer />
+    </div>
     </>
   );
 }
